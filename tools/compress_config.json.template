@@ -1,0 +1,44 @@
+{
+  "comment": "Configuration for compress_assets.py - Copy this to compress_config.json and customize",
+  "root": "../../",
+  "targets": [
+    {
+      "directory": "dashboard/www",
+      "files": [
+        "dashboard.html",
+        "dashboard.css",
+        "dashboard.js",
+        "*.svg"
+      ]
+    },
+    {
+      "directory": "settings/www",
+      "files": [
+        "*.css",
+        "*.js",
+        "*.html",
+        "*.svg"
+      ]
+    },
+    {
+      "directory": "network/www",
+      "files": [
+        "*.html"
+      ]
+    },
+    {
+      "directory": "status/www",
+      "files": [
+        "*.html",
+        "*.css",
+        "*.js"
+      ]
+    },
+    {
+      "directory": "auth/www",
+      "files": [
+        "auth.html"
+      ]
+    }
+  ]
+}

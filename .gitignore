@@ -1,0 +1,15 @@
+# Ignore project-specific compression configuration
+# Use compress_config.json.template as a starting point
+tools/compress_config.json
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Build artifacts (if any tests/examples added)
+build/
+dist/
+*.egg-info/
